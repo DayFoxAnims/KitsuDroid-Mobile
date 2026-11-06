@@ -1,0 +1,166 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ===== FONDO MORADO MEDIANOCHE SÓLIDO ===== */
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #1a0b2e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #f0e6ff;
+  overflow-x: hidden;
+}
+
+/* ===== TÍTULO SUPERIOR ===== */
+.top-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 18px 16px;
+  background-color: #1a0b2e;
+  text-align: left;
+}
+
+.top-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.top-header h1 .kitsu {
+  color: #ff8c1a;
+}
+
+.top-header h1 .droid {
+  color: #ffffff;
+}
+
+.top-header .subtitle {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #9d7bb8;
+}
+
+/* ===== CONTENIDO PRINCIPAL ===== */
+.content {
+  padding: 32px 20px 48px;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Título principal */
+.hero-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.35;
+  color: #ffffff;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+
+/* Párrafo descriptivo */
+.hero-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #c9b8dd;
+  max-width: 340px;
+  margin-bottom: 32px;
+}
+
+/* ===== BOTÓN PRINCIPAL NARANJA CON RELIEVE ===== */
+.btn-main {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  text-decoration: none;
+  background: linear-gradient(180deg, #ffa53d 0%, #ff8c1a 45%, #e67300 100%);
+  border-radius: 14px;
+  border: 1px solid #ffb968;
+  box-shadow:
+    0 6px 0 #a85200,
+    0 8px 18px rgba(255, 140, 26, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 2px rgba(120, 60, 0, 0.6);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-main:active {
+  transform: translateY(4px);
+  box-shadow:
+    0 2px 0 #a85200,
+    0 3px 8px rgba(255, 140, 26, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* ===== SECCIÓN DESCARGAS ===== */
+.downloads {
+  width: 100%;
+  max-width: 360px;
+  margin-top: 56px;
+  text-align: left;
+}
+
+.downloads h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.download-item {
+  margin-bottom: 20px;
+}
+
+.download-item .label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #c9b8dd;
+  margin-bottom: 8px;
+}
+
+.download-item .label .optional {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #9d7bb8;
+}
+
+/* Botón de descarga secundario */
+.btn-download {
+  display: block;
+  width: 100%;
+  padding: 13px 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #ffd9a8;
+  background-color: #2a1245;
+  border: 1px solid #ff8c1a;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #12071f, inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: transform 0.1s ease, background-color 0.15s ease;
+}
+
+.btn-download:active {
+  transform: translateY(2px);
+  background-color: #351a55;
+  box-shadow: 0 1px 0 #12071f;
+}
