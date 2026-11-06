@@ -25,6 +25,9 @@ Todos los archivos necesarios están disponibles en la sección de **[Releases](
 - **APK:** [KitsuDroid-armeabi-v7a.apk](https://github.com/DayFoxAnims/KitsuDroid-Mobile/releases/download/v1.0/KitsuDroid-armeabi-v7a.apk)
 - **Rootfs Debian:** [debian-kitsudroid.tar.xz](https://github.com/DayFoxAnims/KitsuDroid-Mobile/releases/download/v1.0/debian-kitsudroid.tar.xz)
 - **NDK (Opcional):** [android-ndk-r29-arm-linux-gnueabihf.tar.xz](https://github.com/HomuHomu833/android-ndk-custom/releases/download/r29/android-ndk-r29-arm-linux-gnueabihf.tar.xz)
+- **SDK de Ejemplo** [Android 13 (Obligatorio)] (https://github.com/Sable/android-platforms/blob/master/android-33/android.jar)
+
+En el SDK toca los tres botones y pulse "Download" así obtienes el archivo android.jar
 
 ---
 
